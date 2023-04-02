@@ -1,6 +1,6 @@
 # 🏁 F1 podium 🏎️
 
-Silly project to generate Spanish pueblo names!
+F1 podium generator for the 2023 season!
 
 ## Check it out 👀
 
