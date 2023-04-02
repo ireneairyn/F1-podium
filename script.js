@@ -63,6 +63,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
     response1.innerText = drivers[driver1];
     response2.innerText = drivers[driver2];
     response3.innerText = drivers[driver3];
-    console.log(`#${driver1}-${driver2}-${driver3}`);
+  
+    const hashtag = document.getElementById("hashtag");
+    hashtag.innerText = `#${driver1}-${driver2}-${driver3}`;
   });
 });
