@@ -5,7 +5,7 @@
 body {
   margin: 0;
   height: 100%;
-  background-color: #000000;
+  background-color: #241f33;
 }
 
 header {
@@ -20,7 +20,7 @@ header {
   right: 0;
   bottom: 0;
   z-index: -1;
-  background-image: url("./assets/f1racingblack.png");
+  background-image: url("./assets/f1background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -36,7 +36,7 @@ header {
 button {
   font-family: "Bungee Inline", cursive;
   font-size: 16px;
-  background-color: black;
+  background-color: #241f33;
   border: red solid 2px;
   border-radius: 30px;
   color: red;
@@ -52,43 +52,54 @@ button {
   margin-top: 40px;
 }
 
-#response1,
+/* #response1,
 #response2,
 #response3 {
   font-family: "Saira", sans-serif;
   color: white;
   text-align: center;
   text-justify: inter-word;
-  background-color: black;
+  background-color: #241f33;
   border: solid 6px red;
   border-radius: 8px;
   padding: 8px;
   font-size: 30px;
   max-width: 350px;
   min-width: 250px;
-}
+} */
 
-#response1 {
-    margin-left: 10px;
-}
-.border {
-  border: solid 3px white;
-  border-radius: 10px;
-}
-
-.sign {
+.podium {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  flex-direction: column;
-  text-align: center;
+  align-items: end;
 }
 
-.f1-sign {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
+.first-place,
+.second-place,
+.third-place {
+  font-family: "Saira", sans-serif;
+  color: white;
+  text-align: center;
+  text-justify: inter-word;
+  background-color: #241f33;
+  border: solid 6px red;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 20px;
+  max-width: 32%;
+  min-width: 32%;
+}
+.first-place {
+  height: 200px;
+}
+.second-place {
+  height: 150px;
+  margin-right: -6px;
+}
+.third-place {
+  height: 120px;
+  margin-left: -6px;
 }
 
 .emoji-link {
@@ -116,8 +127,8 @@ button {
 }
 
 #hashtag {
-    font-family: 'Bungee Inline', cursive;
-    color: white;
+  font-family: "Bungee Inline", cursive;
+  color: white;
   text-align: center;
   margin-top: 40px;
 }
@@ -128,19 +139,13 @@ button {
     background-position-y: 50%;
   }
 
-  #response {
-    font-size: 36px;
-    max-width: 400px;
-    min-width: 250px;
-  }
-
   button {
     font-size: 20px;
   }
 
   button:hover {
     background-color: red;
-    border: black solid 2px;
+    border: #241f33 solid 2px;
     outline: 6px solid red;
     color: white;
   }
@@ -151,5 +156,19 @@ button {
   .logo-link img:hover {
     opacity: 100%;
     filter: invert(50%) sepia(100%) saturate(100%) hue-rotate(-50deg);
+  }
+
+  .first-place,
+  .second-place,
+  .third-place {
+    font-size: 35px;
+    max-width: 30%;
+    min-width: 25%;
+    padding: 20px;
+  }
+
+  #hashtag {
+    font-family: "Bungee Inline", cursive;
+    font-size: 36px;
   }
 }
