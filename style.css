@@ -133,6 +133,7 @@ button {
   margin-bottom: 40px;
 }
 
+
 /* Desktop stuff */
 @media (min-width: 768px) {
   .background {
@@ -161,7 +162,7 @@ button {
   .first-place,
   .second-place,
   .third-place {
-    font-size: 35px;
+    font-size: 38px;
     max-width: 30%;
     min-width: 25%;
     padding: 20px;
