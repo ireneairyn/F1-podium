@@ -20,7 +20,7 @@ header {
   right: 0;
   bottom: 0;
   z-index: -1;
-  background-image: url("./assets/f1background.png");
+  background-image: url("./assets/f1fondo.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -36,7 +36,7 @@ header {
 button {
   font-family: "Bungee Inline", cursive;
   font-size: 16px;
-  background-color: #241f33;
+  background-color: #120d21;
   border: red solid 2px;
   border-radius: 30px;
   color: red;
@@ -49,30 +49,15 @@ button {
 .f1-button {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 30px;
 }
-
-/* #response1,
-#response2,
-#response3 {
-  font-family: "Saira", sans-serif;
-  color: white;
-  text-align: center;
-  text-justify: inter-word;
-  background-color: #241f33;
-  border: solid 6px red;
-  border-radius: 8px;
-  padding: 8px;
-  font-size: 30px;
-  max-width: 350px;
-  min-width: 250px;
-} */
 
 .podium {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: end;
+  margin-top: 5px;
 }
 
 .first-place,
@@ -82,7 +67,7 @@ button {
   color: white;
   text-align: center;
   text-justify: inter-word;
-  background-color: #241f33;
+  background-color: #120d21;
   border: solid 6px red;
   border-radius: 8px;
   padding: 8px;
@@ -128,9 +113,14 @@ button {
 
 #hashtag {
   font-family: "Bungee Inline", cursive;
+  font-size: 30px;
   color: white;
   text-align: center;
-  margin-top: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 20px;
 }
 
 /* Desktop stuff */
