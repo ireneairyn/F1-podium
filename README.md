@@ -4,7 +4,7 @@ F1 podium generator for the 2023 season!
 
 ## Check it out 👀
 
-*  Click [here](https://ireneairyn.github.io/f1-podium/)!
+*  Click [here](https://ireneairyn.github.io/F1-podium/)!
 
 ## Built With 🛠️
 
