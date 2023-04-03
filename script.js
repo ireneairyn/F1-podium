@@ -57,9 +57,9 @@ function formatDriverName(driver) {
   let name = driver.name;
   
   if (driver.lastname === "Guanyu" && driver.name === "Zhou") {
-    return `<span style="font-weight:bold; color:${driver.color}; text-transform:uppercase;">ZHOE</span> <span style="font-weight:bold;">${driver.lastname}</span>`;
+    return `<div style="font-weight:bold; color:${driver.color}; text-transform:uppercase;">ZHOE</div> <div style="font-weight:bold;">${driver.lastname}</div>`;
   }
-  return `${driver.name} <span style="font-weight:bold; color:${driver.color}; text-transform:uppercase;">${driver.lastname}</span>`;
+  return `${driver.name} <div style="font-weight:bold; color:${driver.color}; text-transform:uppercase;">${driver.lastname}</div>`;
 }
 
 window.addEventListener("DOMContentLoaded", (event) => {

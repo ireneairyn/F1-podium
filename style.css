@@ -30,7 +30,7 @@ header {
 .title {
   width: 430px;
   max-width: 90%;
-  margin-top: 20px;
+  margin-top: 35px;
 }
 
 button {
@@ -49,7 +49,7 @@ button {
 .f1-button {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .podium {
@@ -57,7 +57,8 @@ button {
   flex-direction: row;
   justify-content: center;
   align-items: end;
-  margin-top: 5px;
+  margin-top: 30px;
+
 }
 
 .first-place,
@@ -65,7 +66,6 @@ button {
 .third-place {
   font-family: "Saira", sans-serif;
   color: white;
-  text-align: center;
   text-justify: inter-word;
   background-color: #120d21;
   border: solid 6px red;
@@ -73,17 +73,28 @@ button {
   padding: 8px;
   max-width: 32%;
   min-width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
 .first-place {
-  height: 200px;
+  height: 130px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .second-place {
-  height: 150px;
+  height: 100px;
   margin-right: -6px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .third-place {
-  height: 120px;
+  height: 80px;
   margin-left: -6px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .emoji-link {
@@ -119,7 +130,7 @@ button {
   bottom: 0;
   left: 0;
   right: 0;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 /* Desktop stuff */
@@ -159,5 +170,20 @@ button {
   #hashtag {
     font-family: "Bungee Inline", cursive;
     font-size: 36px;
+    margin-bottom: 25px;
+  }
+  
+  .first-place {
+    height: 200px;
+  }
+
+  .second-place {
+    height: 170px;
+    margin-right: -6px;
+  }
+
+  .third-place {
+    height: 140px;
+    margin-left: -6px;
   }
 }
